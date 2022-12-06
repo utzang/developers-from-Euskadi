@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background: #080808;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: #000;
+}
+
+header > .header-left-column {
+    padding-left: 20px;
+}
+
+header > .header-left-column > img{
+    width: 200px;
+}
+header > .header-center-column {
+    padding-top: 15px;
+}
+header > .header-center-column > .links-wrapper > .nav-link > p {
+    position: absolute;
+    color: #ffeb3b;
+    margin-top: -23px;
+}
+
+header > .header-center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+
+header > .header-center-column > .links-wrapper > .nav-link > a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+header > .header-center-column > .links-wrapper > .nav-link > a:hover {
+    color: #ffeb3b;
+}
+
+header > .header-center-column > .links-wrapper > .nav-link > .spark {
+    color: rgb(109, 109, 109);
+}
+
+header > .header-center-column > .links-wrapper > .nav-link > .spark:hover {
+    color: rgb(109, 109, 109);
+}
+
+header > .header-center-column > .links-wrapper > .nav-link > .fa-solid {
+    color: rgb(109, 109, 109);
+    margin-left: 5px;
+    transition: 0.8s;
+}
+
+header > .header-center-column > .links-wrapper > .nav-link > .fa-solid:hover {
+    cursor: pointer;
+    color: #ffeb3b;
+}
+header > .header-right-column {
+    padding-right: 10px;
+}
+header > .header-right-column > .btn {
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+header > .header-right-column > .btn:hover {
+    background-color: #777;
+}
+
+header > .header-right-column > .btn > .fa-solid {
+    color: #3ecf71;
+    margin-left: 3px;
+    transition: 0.5s;
+}
+
+header > .header-right-column > .btn > .fa-solid:hover {
+    color: #fff;
+} 
+
+header > .header-right-column > .fa-magnifying-glass {
+    cursor: pointer;
+    color: #444;
+    font-size: 2em;
+    margin: 15px;
+    transition: 0.5s;
+}
+
+header > .header-right-column > .fa-magnifying-glass:hover {
+    color: #fff;
+}
